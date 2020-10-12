@@ -38,9 +38,6 @@
     "semantic-release": "^17.1.2"
   },
   "release": {
-    "branches": [
-      "main"
-    ],
     "verifyConditions": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
