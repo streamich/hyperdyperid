@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/streamich/hyperdyperid/compare/v1.0.0...v1.0.1) (2020-10-12)
+
+
+### Bug Fixes
+
+* 🐛 initialize seeds using 32 bits ([3090f3c](https://github.com/streamich/hyperdyperid/commit/3090f3ce5d2a8392fb52d75bcc76cf7c2c41e76e))
+
 # 1.0.0 (2020-10-12)
 
 
