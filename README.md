@@ -5,7 +5,7 @@ Fastest random ID and random string generation for Node.js
 - `str5_36` &mdash; generates random 5 character alphanumeric string.
 - `str6_36` &mdash; generates random 6 character alphanumeric string.
 - `str10_36` &mdash; generates random 10 character alphanumeric string.
-- `str(len[], alphabet])` &mdash; generates any length random string using an `alphabet`. Use like `str(10, '0123456789')`.
+- `str(len [, alphabet])` &mdash; generates any length random string using an `alphabet`. Use like `str(10, '0123456789')`.
 - `hyperid` &mdash; generates "hyperid" like ID.
 - `xorshift32` &mdash; iterates through pseudo random numbers using "xorshift32" algorithm.
 
