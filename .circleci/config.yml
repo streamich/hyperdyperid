@@ -33,7 +33,7 @@ jobs:
       - *Test
       - *Post_to_dev_null
 
-  main:
+  master:
     <<: *container
     steps:
       - checkout
@@ -68,22 +68,22 @@ workflows:
           filters:
             branches:
               ignore:
-                - main
+                - master
                 - gh-pages
-  main:
+  master:
     jobs:
-      - main:
+      - master:
           context: common-env-vars
           filters:
             branches:
-              only: main
+              only: master
   nightly:
     triggers:
       - schedule:
           cron: '0 1 * * *'
           filters:
             branches:
-              only: main
+              only: master
     jobs:
       - nightly:
           context: common-env-vars
