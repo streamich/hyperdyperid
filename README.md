@@ -10,6 +10,7 @@ Fastest random ID and random string generation for Node.js
 - `hyperid` &mdash; generates "hyperid" like ID.
 - `xorshift32` &mdash; iterates through pseudo random numbers using "xorshift32" algorithm. This used
   to be the algorithm behind `Math.random()` in V8, then it switched to "xorshift64".
+- `randomU32(min, max)` &mdash; generate a random 32-bit integer.
 
 
 ## Usage
