@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/streamich/hyperdyperid/compare/v1.1.0...v1.2.0) (2022-04-23)
+
+
+### Features
+
+* 🎸 add TypeScript ambient type annotations ([cc564fe](https://github.com/streamich/hyperdyperid/commit/cc564fe8eac6198d85b16b6da04fc3a780499f0e))
+
 # [1.1.0](https://github.com/streamich/hyperdyperid/compare/v1.0.1...v1.1.0) (2022-04-23)
 
 
