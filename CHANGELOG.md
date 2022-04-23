@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/streamich/hyperdyperid/compare/v1.0.1...v1.1.0) (2022-04-23)
+
+
+### Features
+
+* 🎸 add str3_36 generators ([0ba3630](https://github.com/streamich/hyperdyperid/commit/0ba363069703fb80005555e74f2f469148f31fa7))
+* 🎸 export xorshift32() and add randomU32() functions ([e342869](https://github.com/streamich/hyperdyperid/commit/e34286971ae90064bd4391b6a01d87d2d7a94d86))
+
+
+### Performance Improvements
+
+* ⚡️ update benchmarks ([6504b3d](https://github.com/streamich/hyperdyperid/commit/6504b3d54b29e8677f057612fec06783d9752a1e))
+* ⚡️ update randomU32() benchmarks ([6bde79d](https://github.com/streamich/hyperdyperid/commit/6bde79deaee6a5f8c7781ba180675b9bf0ad3a51))
+
 ## [1.0.1](https://github.com/streamich/hyperdyperid/compare/v1.0.0...v1.0.1) (2020-10-12)
 
 
