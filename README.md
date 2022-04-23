@@ -33,19 +33,26 @@ str10_36();
 
 ## Performance
 
+Ran on Mac Mini M1:
+
 ```
+node -v
+v16.14.2
 node benchmarks/main.js 
-hyperdyperid str5_36() x 47,074,819 ops/sec ±0.92% (90 runs sampled)
-hyperdyperid str6_36() x 42,587,029 ops/sec ±1.10% (90 runs sampled)
-hyperdyperid str10_36() x 17,570,069 ops/sec ±1.09% (89 runs sampled)
-hyperdyperid str(5) x 10,311,356 ops/sec ±0.80% (91 runs sampled)
-hyperdyperid str(10) x 4,826,240 ops/sec ±0.81% (92 runs sampled)
-hyperdyperid hyperid() x 14,637,200 ops/sec ±1.60% (84 runs sampled)
-hyperid x 13,187,142 ops/sec ±0.97% (88 runs sampled)
-Math.random().toString() x 4,515,394 ops/sec ±1.05% (88 runs sampled)
-nanoid x 409,505 ops/sec ±1.28% (90 runs sampled)
-shortid x 39,309 ops/sec ±1.09% (88 runs sampled)
-Fastest is hyperdyperid str5_36()
+hyperdyperid xorshift32() x 241,258,490 ops/sec ±1.97% (78 runs sampled)
+hyperdyperid str3_36() x 203,361,942 ops/sec ±1.57% (82 runs sampled)
+hyperdyperid str5_36() x 124,134,559 ops/sec ±1.74% (85 runs sampled)
+hyperdyperid str6_36() x 125,011,053 ops/sec ±2.48% (70 runs sampled)
+hyperdyperid str10_36() x 19,445,199 ops/sec ±1.92% (84 runs sampled)
+hyperdyperid str(5) x 5,940,801 ops/sec ±1.70% (82 runs sampled)
+hyperdyperid str(10) x 2,798,758 ops/sec ±1.45% (65 runs sampled)
+hyperdyperid hyperid() x 26,317,209 ops/sec ±2.61% (76 runs sampled)
+hyperid x 17,018,022 ops/sec ±1.66% (84 runs sampled)
+Math.random() x 72,294,752 ops/sec ±1.65% (83 runs sampled)
+Math.random().toString() x 4,503,932 ops/sec ±2.68% (80 runs sampled)
+nanoid x 470,470 ops/sec ±3.17% (77 runs sampled)
+shortid x 41,870 ops/sec ±6.21% (67 runs sampled)
+Fastest is hyperdyperid xorshift32()
 ```
 
 
