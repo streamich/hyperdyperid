@@ -36,7 +36,9 @@ str10_36();
 
 ## Performance
 
-Ran on Mac Mini M1:
+Ran on Mac Mini M1.
+
+Random ID generation:
 
 ```
 node -v
@@ -56,6 +58,17 @@ Math.random().toString() x 4,503,932 ops/sec ±2.68% (80 runs sampled)
 nanoid x 470,470 ops/sec ±3.17% (77 runs sampled)
 shortid x 41,870 ops/sec ±6.21% (67 runs sampled)
 Fastest is hyperdyperid xorshift32()
+```
+
+Random integer generation:
+
+```
+node -v
+v16.14.2
+node benchmarks/randomU32.js 
+randomU32(min, max) x 248,233,310 ops/sec ±1.91% (73 runs sampled)
+Math.random() * (max - min + 1) + min x 35,034,863 ops/sec ±1.75% (81 runs sampled)
+Fastest is randomU32(min, max)
 ```
 
 
